@@ -1,11 +1,4 @@
-const express = require("express");
-const consign = require('consign')
-const routes = require("./routes")
+const customExpress = require("./config/customExpress");
 
-const app = express();
-
-
-app.use('/',routes);
+const app = customExpress();
 app.listen(3000, () => console.log("server listening"));
-
-
