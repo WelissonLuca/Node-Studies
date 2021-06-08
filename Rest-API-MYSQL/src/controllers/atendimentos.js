@@ -6,7 +6,6 @@ module.exports = {
 	},
 	create(req, res) {
 		const atendimentos = req.body;
-		Atendimento.adiciona(atendimentos);
-		res.send(atendimentos);
+		Atendimento.adiciona(atendimentos, res);
 	},
 };
