@@ -1,0 +1,18 @@
+[submodule "Ignite/Desafio3-Ignite-Node"]
+	path = Ignite/Desafio3-Ignite-Node
+	url = https://github.com/WelissonLuca/Desafio3-Ignite-Node
+[submodule "Ignite/ToDoList"]
+	path = Ignite/ToDoList
+	url = https://github.com/WelissonLuca/ToDoList-Ignite
+[submodule "Ignite/Desafio02-Ignite-Node"]
+	path = Ignite/Desafio02-Ignite-Node
+	url = https://github.com/WelissonLuca/Desafio02-Ignite-Node
+[submodule "Ignite/ignite-chapter-two-api-challange"]
+	path = Ignite/ignite-chapter-two-api-challange
+	url = https://github.com/WelissonLuca/ignite-chapter-two-api-challenge
+[submodule "Ignite/challenge-database-queries"]
+	path = Ignite/challenge-database-queries
+	url = https://github.com/WelissonLuca/challenge-database-queries-igniteNodeJS
+[submodule "Ignite/Rentalx"]
+	path = Ignite/Rentalx
+	url = https://github.com/WelissonLuca/Rentalx
