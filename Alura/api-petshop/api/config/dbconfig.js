@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const config = {
 	username: process.env.MYSQL_USERNAME || "admin",
 	password: process.env.MYSQL_PASSWORD || "123",
