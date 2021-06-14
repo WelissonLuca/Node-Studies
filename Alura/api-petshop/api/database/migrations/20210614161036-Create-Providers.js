@@ -36,6 +36,11 @@ module.exports = {
 				defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
 				allowNull: false,
 			},
+			version: {
+				type: "TIMESTAMP",
+				defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+				allowNull: false,
+			},
 		});
 	},
 
