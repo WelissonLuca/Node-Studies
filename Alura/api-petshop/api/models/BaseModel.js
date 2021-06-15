@@ -11,7 +11,6 @@ class BaseModel extends Model {
 				createdAt: "created_at",
 				updatedAt: "updated_at",
 				deletedAt: "deleted_at",
-				version: 'version'
 			}
 		);
 	}

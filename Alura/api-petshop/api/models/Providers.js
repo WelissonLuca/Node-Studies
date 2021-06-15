@@ -22,7 +22,6 @@ class Providers extends Model {
 				sequelize,
 				underscored: true,
 				tableName: "providers",
-				version: true
 			}
 		);
 	}
