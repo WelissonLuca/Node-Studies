@@ -1,8 +1,10 @@
-const Providers = require('../controllers/Providers')
+const Providers = require("../controllers/Providers");
 
-const router = require('express').Router()
+const router = require("express").Router();
 
-
-router.get('/providers', Providers.getAll)
 router.post("/providers", Providers.register);
+router.get("/providers", Providers.getAll);
+router.get("/provider/:id", Providers.getById);
+router.put("/provider/:id", Providers.update);
+
 module.exports = router;
