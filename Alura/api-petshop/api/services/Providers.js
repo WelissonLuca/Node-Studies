@@ -40,5 +40,10 @@ module.exports = {
 		provider.save();
 		return provider;
 	},
-	async delete(id) {},
+	async delete(id) {
+		const provider = await Providers.findByPk(id);
+		await idExists(provider, id);
+		provider.destroy();
+		return provider;
+	},
 };
